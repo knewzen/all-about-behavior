@@ -1,0 +1,20 @@
+.footer {
+  background-color: $green;
+
+  .container {
+
+    img {
+      width: 10rem;
+    }
+    .content {
+
+      .column {
+        border-top: 10px solid $yellow;
+
+        p {
+
+        }
+      }
+    }
+  }
+}

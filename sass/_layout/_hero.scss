@@ -1,0 +1,15 @@
+.hero {
+
+  background-image: url(img/hero.jpg);
+  background-size: cover;
+
+  img {
+    width: 15em;
+  }
+
+  .hero-subtitle {
+    border-top: 28px solid $green;
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+}

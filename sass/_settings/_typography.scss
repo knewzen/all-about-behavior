@@ -1,0 +1,105 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+
+  &.title {
+    font-weight: 900;
+    letter-spacing: .035rem;
+  }
+}
+
+h2 {
+  font-family: 'Droid Serif', serif;
+
+  &.subtitle {
+    font-size: 1.15rem;
+    line-height: 1.85rem;
+
+    &.hero-subtitle {
+      font-family: 'Raleway', sans-serif;
+      font-weight: 900;
+      color: $white;
+      font-size: 4.5rem;
+      line-height: 4.85rem;
+    }
+  }
+}
+
+.button {
+  font-family: 'Droid Serif', serif;
+  // font-weight: 700;
+  // text-transform: uppercase;
+}
+
+
+.subtext {
+  font-family: 'Droid Serif', serif;
+  font-size: .85rem;
+  // text-align: center;
+}
+
+.callout-title {
+  border-bottom: 8px solid $medgrey;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+
+}
+
+.callout {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.65rem;
+  font-weight: 900;
+  line-height: 3.25rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.card {
+
+  .card-content {
+
+    .media {
+
+      .media-content {
+
+        .title {
+          font-family: 'Raleway', sans-serif;
+          font-weight: 900;
+        }
+      }
+
+    }
+
+    .content {
+      font-family: 'Droid Serif', serif;
+    }
+  }
+}
+
+
+.footer {
+
+  .container {
+
+    .content {
+
+      .column {
+
+        p {
+          color: $white;
+          font-family: 'Droid Serif', serif;
+
+          a {
+            color: $yellow;
+
+            &:hover {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

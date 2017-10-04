@@ -1,0 +1,19 @@
+.button {
+  padding: 1.5rem;
+
+  &.is-primary {
+    background-color: $yellow;
+    color: $black;
+  }
+
+  &.is-hovered {
+    background-color: $green;
+  }
+}
+
+
+.button.is-primary:hover, .button.is-primary.is-hovered {
+  background-color: $green;
+  // border-color: transparent;
+  // color: #fff;
+}

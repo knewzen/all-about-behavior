@@ -1,0 +1,18 @@
+// DEPENDENCIES
+@import "compass";
+@import "bulma/bulma.scss";
+
+
+// Settings
+@import "_settings/grid-settings";
+@import "_settings/variables";
+@import "_settings/typography";
+@import "_settings/buttons";
+
+
+
+
+// Layout
+@import "_layout/hero";
+@import "_layout/services";
+@import "_layout/footer";

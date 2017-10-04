@@ -1,0 +1,75 @@
+/*
+Error: Undefined mixin 'block'.
+        on line 2 of /Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass, in `block'
+        from line 2 of /Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass
+
+1: .block
+2:   +block
+3: 
+4: .delete
+5:   +delete
+6: 
+7: .heading
+
+Backtrace:
+/Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass:2:in `block'
+/Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass:2
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:98:in `with_mixin'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `map'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/tree/root_node.rb:20:in `render'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/engine.rb:281:in `render'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:294:in `watch'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/bin/compass:44:in `call'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/bin/compass:22:in `load'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/bin/compass:22:in `<main>'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+/Users/zkeller/.rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'block'.\A         on line 2 of /Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass, in `block'\A         from line 2 of /Applications/MAMP/htdocs/dacey/sass/bulma/sass/elements/other.sass\A \A 1: .block\A 2:   +block\A 3: \A 4: .delete\A 5:   +delete\A 6: \A 7: .heading"; }
