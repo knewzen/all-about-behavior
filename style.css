@@ -9918,17 +9918,21 @@ h2.subtitle.hero-subtitle {
   justify-content: center;
 }
 /* line 9, sass/_layout/_hero.scss */
-.hero img {
+.hero .container {
+  padding: 0 1.25rem;
+}
+/* line 12, sass/_layout/_hero.scss */
+.hero .container img {
   width: 15em;
 }
 @media (max-width: 768px) {
-  /* line 9, sass/_layout/_hero.scss */
-  .hero img {
+  /* line 12, sass/_layout/_hero.scss */
+  .hero .container img {
     width: 10em;
   }
 }
-/* line 17, sass/_layout/_hero.scss */
-.hero .hero-subtitle {
+/* line 20, sass/_layout/_hero.scss */
+.hero .container .hero-subtitle {
   border-top: 28px solid #4FA457;
   margin-top: 1rem;
   padding-top: 1rem;

@@ -6,17 +6,22 @@
   align-items: center;
   justify-content: center;
 
-  img {
-    width: 15em;
+  .container {
+    padding: 0 1.25rem;
 
-    @include mobile {
-      width: 10em;
+    img {
+      width: 15em;
+
+      @include mobile {
+        width: 10em;
+      }
+    }
+
+    .hero-subtitle {
+      border-top: 28px solid $green;
+      margin-top: 1rem;
+      padding-top: 1rem;
     }
   }
 
-  .hero-subtitle {
-    border-top: 28px solid $green;
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
 }
