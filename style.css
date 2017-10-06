@@ -9808,7 +9808,7 @@ h2.subtitle.hero-subtitle {
     line-height: 3.75rem;
   }
 }
-@media (min-width: 1008px) {
+@media screen and (min-width: 1216px) {
   /* line 17, sass/_settings/_typography.scss */
   h2.subtitle.hero-subtitle {
     font-size: 4.5rem;
@@ -9821,13 +9821,13 @@ h2.subtitle.hero-subtitle {
   font-family: 'Droid Serif', serif;
 }
 
-/* line 47, sass/_settings/_typography.scss */
+/* line 45, sass/_settings/_typography.scss */
 .subtext {
   font-family: 'Droid Serif', serif;
   font-size: .85rem;
 }
 
-/* line 53, sass/_settings/_typography.scss */
+/* line 50, sass/_settings/_typography.scss */
 .callout-title {
   border-bottom: 8px solid #DEDEDE;
   display: block;
@@ -9837,54 +9837,54 @@ h2.subtitle.hero-subtitle {
   margin-bottom: 1.5rem;
 }
 
-/* line 63, sass/_settings/_typography.scss */
+/* line 60, sass/_settings/_typography.scss */
 .callout {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   margin-bottom: 1.5rem;
 }
 @media (max-width: 768px) {
-  /* line 63, sass/_settings/_typography.scss */
+  /* line 60, sass/_settings/_typography.scss */
   .callout {
     font-size: 1.5rem;
     line-height: 1.85rem;
   }
 }
 @media (min-width: 769px) {
-  /* line 63, sass/_settings/_typography.scss */
+  /* line 60, sass/_settings/_typography.scss */
   .callout {
     font-size: 2rem;
     line-height: 2.5rem;
   }
 }
-@media (min-width: 1008px) {
-  /* line 63, sass/_settings/_typography.scss */
+@media screen and (min-width: 1216px) {
+  /* line 60, sass/_settings/_typography.scss */
   .callout {
     font-size: 2.65rem;
     line-height: 3.25rem;
   }
 }
 
-/* line 93, sass/_settings/_typography.scss */
+/* line 90, sass/_settings/_typography.scss */
 .card .card-content .media .media-content .title {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
-/* line 101, sass/_settings/_typography.scss */
+/* line 98, sass/_settings/_typography.scss */
 .card .card-content .content {
   font-family: 'Droid Serif', serif;
 }
 
-/* line 116, sass/_settings/_typography.scss */
+/* line 113, sass/_settings/_typography.scss */
 .footer .container .content .column p {
   color: white;
   font-family: 'Droid Serif', serif;
 }
-/* line 120, sass/_settings/_typography.scss */
+/* line 117, sass/_settings/_typography.scss */
 .footer .container .content .column p a {
   color: #E4D93A;
 }
-/* line 123, sass/_settings/_typography.scss */
+/* line 120, sass/_settings/_typography.scss */
 .footer .container .content .column p a:hover {
   color: white;
 }
