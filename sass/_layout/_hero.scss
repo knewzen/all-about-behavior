@@ -5,6 +5,10 @@
 
   img {
     width: 15em;
+
+    @include mobile {
+      width: 10em;
+    }
   }
 
   .hero-subtitle {

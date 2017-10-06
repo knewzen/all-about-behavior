@@ -9793,22 +9793,41 @@ h2.subtitle.hero-subtitle {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   color: white;
-  font-size: 4.5rem;
-  line-height: 4.85rem;
+}
+@media (max-width: 768px) {
+  /* line 17, sass/_settings/_typography.scss */
+  h2.subtitle.hero-subtitle {
+    font-size: 2.5rem;
+    line-height: 2.85rem;
+  }
+}
+@media (min-width: 769px) {
+  /* line 17, sass/_settings/_typography.scss */
+  h2.subtitle.hero-subtitle {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+  }
+}
+@media (min-width: 1008px) {
+  /* line 17, sass/_settings/_typography.scss */
+  h2.subtitle.hero-subtitle {
+    font-size: 4.5rem;
+    line-height: 4.85rem;
+  }
 }
 
-/* line 27, sass/_settings/_typography.scss */
+/* line 40, sass/_settings/_typography.scss */
 .button {
   font-family: 'Droid Serif', serif;
 }
 
-/* line 34, sass/_settings/_typography.scss */
+/* line 47, sass/_settings/_typography.scss */
 .subtext {
   font-family: 'Droid Serif', serif;
   font-size: .85rem;
 }
 
-/* line 40, sass/_settings/_typography.scss */
+/* line 53, sass/_settings/_typography.scss */
 .callout-title {
   border-bottom: 8px solid #DEDEDE;
   display: block;
@@ -9818,35 +9837,54 @@ h2.subtitle.hero-subtitle {
   margin-bottom: 1.5rem;
 }
 
-/* line 50, sass/_settings/_typography.scss */
+/* line 63, sass/_settings/_typography.scss */
 .callout {
   font-family: 'Raleway', sans-serif;
-  font-size: 2.65rem;
   font-weight: 900;
-  line-height: 3.25rem;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 768px) {
+  /* line 63, sass/_settings/_typography.scss */
+  .callout {
+    font-size: 1.5rem;
+    line-height: 1.85rem;
+  }
+}
+@media (min-width: 769px) {
+  /* line 63, sass/_settings/_typography.scss */
+  .callout {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 1008px) {
+  /* line 63, sass/_settings/_typography.scss */
+  .callout {
+    font-size: 2.65rem;
+    line-height: 3.25rem;
+  }
+}
 
-/* line 67, sass/_settings/_typography.scss */
+/* line 93, sass/_settings/_typography.scss */
 .card .card-content .media .media-content .title {
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
-/* line 75, sass/_settings/_typography.scss */
+/* line 101, sass/_settings/_typography.scss */
 .card .card-content .content {
   font-family: 'Droid Serif', serif;
 }
 
-/* line 90, sass/_settings/_typography.scss */
+/* line 116, sass/_settings/_typography.scss */
 .footer .container .content .column p {
   color: white;
   font-family: 'Droid Serif', serif;
 }
-/* line 94, sass/_settings/_typography.scss */
+/* line 120, sass/_settings/_typography.scss */
 .footer .container .content .column p a {
   color: #E4D93A;
 }
-/* line 97, sass/_settings/_typography.scss */
+/* line 123, sass/_settings/_typography.scss */
 .footer .container .content .column p a:hover {
   color: white;
 }
@@ -9879,7 +9917,13 @@ h2.subtitle.hero-subtitle {
 .hero img {
   width: 15em;
 }
-/* line 10, sass/_layout/_hero.scss */
+@media (max-width: 768px) {
+  /* line 6, sass/_layout/_hero.scss */
+  .hero img {
+    width: 10em;
+  }
+}
+/* line 14, sass/_layout/_hero.scss */
 .hero .hero-subtitle {
   border-top: 28px solid #4FA457;
   margin-top: 1rem;
