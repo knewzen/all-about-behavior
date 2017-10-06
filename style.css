@@ -9912,18 +9912,22 @@ h2.subtitle.hero-subtitle {
 .hero {
   background-image: url(img/hero.jpg);
   background-size: cover;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
-/* line 6, sass/_layout/_hero.scss */
+/* line 9, sass/_layout/_hero.scss */
 .hero img {
   width: 15em;
 }
 @media (max-width: 768px) {
-  /* line 6, sass/_layout/_hero.scss */
+  /* line 9, sass/_layout/_hero.scss */
   .hero img {
     width: 10em;
   }
 }
-/* line 14, sass/_layout/_hero.scss */
+/* line 17, sass/_layout/_hero.scss */
 .hero .hero-subtitle {
   border-top: 28px solid #4FA457;
   margin-top: 1rem;
