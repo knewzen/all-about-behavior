@@ -29,7 +29,7 @@ h2 {
       line-height: 3.75rem;
       }
 
-      @include desktop {
+      @include widescreen {
         font-size: 4.5rem;
         line-height: 4.85rem;
       }
@@ -39,15 +39,12 @@ h2 {
 
 .button {
   font-family: 'Droid Serif', serif;
-  // font-weight: 700;
-  // text-transform: uppercase;
 }
 
 
 .subtext {
   font-family: 'Droid Serif', serif;
   font-size: .85rem;
-  // text-align: center;
 }
 
 .callout-title {
@@ -75,7 +72,7 @@ h2 {
     line-height: 2.5rem;
   }
 
-  @include desktop {
+  @include widescreen {
     font-size: 2.65rem;
     line-height: 3.25rem;
   }
